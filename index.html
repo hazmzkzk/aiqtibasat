@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع الاقتباسات</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- إضافة مكتبات Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-firestore.js"></script>
+</head>
+<body>
+    <h1>مرحبًا بك في موقع الاقتباسات</h1>
+    <form id="quoteForm">
+        <input type="text" id="quoteText" placeholder="أدخل اقتباسك هنا" required>
+        <button type="submit">نشر الاقتباس</button>
+    </form>
+    <ul id="quotesList"></ul>
+    <script src="script.js"></script>
+</body>
+</html>
